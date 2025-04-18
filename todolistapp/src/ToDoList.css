@@ -1,0 +1,11 @@
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.container {
+  border: solid 5px rgb(1, 1, 66);
+  padding: 25px;
+  background-color: bisque;
+  border-radius: 10px;
+  font-size: 1.2em;
+}

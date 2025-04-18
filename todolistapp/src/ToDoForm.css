@@ -1,0 +1,15 @@
+.todoForm input[type="text"] {
+  width: 20em;
+  height: 2.5em;
+  border-radius: 10px;
+  border-color: aquamarine;
+}
+.todoForm button {
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  width: 8em;
+  height: 2.5em;
+  border-radius: 10px;
+  background-color: rgb(161, 214, 92);
+  border-color: aquamarine;
+}
