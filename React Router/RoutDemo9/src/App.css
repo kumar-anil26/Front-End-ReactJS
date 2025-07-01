@@ -1,0 +1,28 @@
+/** @format */
+.profileDetails {
+	width: 400px;
+	height: 180px;
+	padding: 10px;
+	border: solid 3px limegreen;
+}
+.accountDetails {
+	width: 400px;
+	height: 180px;
+	padding: 10px;
+	border: solid 3px limegreen;
+}
+.navBar {
+	margin: 10px;
+}
+.navLink {
+	margin: 15px;
+	text-decoration: none;
+}
+a.active {
+	color: crimson;
+	font-size: larger;
+}
+.pLink {
+	margin: 15px;
+	text-decoration: none;
+}

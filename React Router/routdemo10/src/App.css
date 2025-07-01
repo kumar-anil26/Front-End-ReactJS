@@ -1,0 +1,10 @@
+/** @format */
+.navBar {
+	margin: 10px;
+	text-decoration: none;
+}
+a.active {
+	font-size: larger;
+	color: crimson;
+  text-decoration: underline;
+}

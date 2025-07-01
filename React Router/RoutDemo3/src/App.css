@@ -1,0 +1,20 @@
+.navBar{
+    margin: 10px;
+}
+.NavBarLink{
+    margin: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+    font-style: italic;
+}
+a.active{
+    color:crimson;
+    text-decoration: underline;
+}
+
+
+
+
+
