@@ -9,6 +9,7 @@ import Profile from "./Component/Profile";
 import Protected from "./Component/Protected";
 import { useState } from "react";
 import About from "./Component/About";
+import NotFound from "./Component/NotFound";
 
 export default function App() {
 	const [isLoggedIn, setisLoggedIn] = useState(false);
@@ -31,6 +32,7 @@ export default function App() {
 						</Protected>
 					}
 				/>
+				<Route path="*" element={<NotFound/>}/>
 			</Routes>
 		</>
 	);

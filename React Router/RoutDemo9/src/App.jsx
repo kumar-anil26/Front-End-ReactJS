@@ -7,6 +7,7 @@ import User from "./Component/User";
 import Home from "./Component/Home";
 import Profile from "./Component/Profile";
 import Account from "./Component/Account";
+import NotFound from "./Component/NotFound";
 
 export default function App() {
 
@@ -26,6 +27,7 @@ export default function App() {
 					<Route index element={<Profile />} />
 					<Route path="ProfileDetails" element={<Profile />} />
 					<Route path="AccountDetails" element={<Account />} />
+					<Route path="*" element={<NotFound/>}/>
 				</Route>
 			</Routes>
 		</>

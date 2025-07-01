@@ -11,6 +11,7 @@ import Posts from "./Component/Posts";
 import Login from "./Component/Login";
 import { useState } from "react";
 import Protected from "./Component/Protected";
+import NotFound from "./Component/NotFound";
 
 export default function App() {
 	const [isValid, setisValid] = useState(false);
@@ -40,6 +41,7 @@ export default function App() {
 						</Protected>
 					}
 				/>
+				<Route path="*" element={<NotFound/>}/>
 			</Routes>
 		</div>
 	);

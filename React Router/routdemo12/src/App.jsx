@@ -6,6 +6,7 @@ import Home from "./Component/Home";
 import User from "./Component/User";
 import Users from "./Component/Users";
 import './App.css';
+import NotFound from "./Component/NotFound";
 
 export default function App() {
 	const users = [
@@ -30,6 +31,7 @@ export default function App() {
 				<Route path="/Users" element={<Users users={users} />}>
 					<Route path=":userid" element={<User users={users} />} />
 				</Route>
+				<Route path="*" element={<NotFound/>}/>
 			</Routes>
 		</>
 	);

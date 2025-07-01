@@ -6,6 +6,7 @@ import { Routes, Route, NavLink } from "react-router-dom";
 import Home from "./Component/Home";
 import About from "./Component/About";
 import Posts from "./Component/Posts";
+import NotFound from "./Component/NotFound";
 
 export default function App() {
 	return (
@@ -25,6 +26,7 @@ export default function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/About" element={<About />} />
 				<Route path="/Posts" element={<Posts />} />
+				<Route path="*" element={<NotFound/>}/>
 			</Routes>
 		</div>
 	);
