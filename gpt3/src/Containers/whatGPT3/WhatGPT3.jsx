@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import "./WhatGPT3.css";
+import "./whatGPT3.css";
 import { Feature } from "../../Component";
 
 export default function WhatGPT3() {
