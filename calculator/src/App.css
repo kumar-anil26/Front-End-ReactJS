@@ -1,0 +1,7 @@
+.mainContainer{
+  width: 250px;
+  min-width: 200px;
+  border:  solid 1px lightblue;
+  margin: 20px auto;
+  border-radius: 8px;
+}
