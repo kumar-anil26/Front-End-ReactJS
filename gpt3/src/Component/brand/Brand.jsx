@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./brand.css";
-import { google, slack, atlassian, dropbox, shopify } from "./Imports";
+import { google, slack, atlassian, dropbox, shopify } from "./imports";
 
 export default function brand() {
 	return <div className="gpt3__brand section__padding">
